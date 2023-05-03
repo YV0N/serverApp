@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+tmp/
+src/assets/.gitkeep
+
+# Environment variables
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Testing artifacts
+coverage/
+karma.conf.js
+test.ts
+tsconfig.spec.json
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.swp
+*.swo
